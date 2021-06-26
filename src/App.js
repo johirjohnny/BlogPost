@@ -1,9 +1,12 @@
-
+import React from 'react';
+import TopBar from './Component/topbar/TopBar.jsx'
+import Home from './pages/home/Home.jsx';
 
 function App() {
   return (
-    <div className="App">
-      blog App
+    <div>
+      <TopBar />
+      <Home />
     </div>
   );
 }
