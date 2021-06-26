@@ -1,0 +1,61 @@
+.Register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgb(216, 119, 54)
+      ),
+      url("https://www.elegantthemes.com/blog/wp-content/uploads/2016/02/photo-1441448770220-76743f9e6af6.jpg");
+    background-size: cover;
+  }
+  
+  .RegisterTitle {
+    font-size: 50px;
+  }
+  
+  .RegisterForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .RegisterForm > label {
+    margin: 10px 0;
+  }
+  
+  .RegisterInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .RegisterInput:focus {
+    outline: none;
+  }
+  
+  .RegisterButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(216, 119, 54);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .RegisterLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(216, 119, 54);
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
